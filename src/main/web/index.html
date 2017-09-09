@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+</head>
+<body>
+<h1>你好，世界！</h1>
+<h1>h1. Bootstrap heading</h1>
+<h2>h2. Bootstrap heading</h2>
+<h3>h3. Bootstrap heading</h3>
+<h4>h4. Bootstrap heading</h4>
+<h5>h5. Bootstrap heading</h5>
+<h6>h6. Bootstrap heading</h6>
+
+<!--内联文本元素-->
+<div>
+    You can use the mark tag to
+    <mark>highlight</mark>
+    text.
+</div>
+<!--被删除的文本-->
+<diV>
+    <del>This line of text is meant to be treated as deleted text.</del>
+</diV>
+<!--缩略语-->
+<div>
+    An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.
+</div>
+
+<blockquote>
+    <p>Good good study,Day day up!
+        <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </p>
+</blockquote>
+<!--代码-->
+For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+<!--按键-->
+To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+<!--代码块-->
+<pre>public class Test {
+    public static void main(String[] args){
+        System.out.println("Hello,World!");
+    }
+}
+</pre>
+<div class="table-responsive">
+<table class="table table-hover table-bordered table-condensed">
+    <tr class="success">
+     <th>id</th>
+     <th>name</th>
+     <th>sex</th>
+     <th>birthday</th>
+    </tr>
+    <tr class="info">
+        <td>1</td>
+        <td>lizq</td>
+        <td>男</td>
+        <td>2017-09-08</td>
+    </tr>
+    <tr class="warning">
+        <td>2</td>
+        <td>malisu</td>
+        <td>女</td>
+        <td>2017-09-08</td>
+    </tr>
+    <tr class="danger">
+        <td>3</td>
+        <td>PonyMa</td>
+        <td>男</td>
+        <td>2017-09-08</td>
+    </tr>
+</table>
+</div>
+<!--表单-->
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入邮箱">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入密码">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">在此处上传您的文件.</p>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"> Check me out
+        </label>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
+<!--多选和单选-->
+<div class="checkbox">
+    <label>
+        <input type="checkbox" value="">
+        Option one is this and that&mdash;be sure to include why it's great
+    </label>
+</div>
+<div class="checkbox disabled">
+    <label>
+        <input type="checkbox" value="" disabled>
+        Option two is disabled
+    </label>
+</div>
+
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option one is this and that&mdash;be sure to include why it's great
+    </label>
+</div>
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option two can be something else and selecting it will deselect option one
+    </label>
+</div>
+<div class="radio disabled">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+        Option three is disabled
+    </label>
+</div>
+<!--下拉列表-->
+<select class="form-control">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+</select>
+<!--校验状态-->
+<div class="form-group has-success">
+    <label class="control-label" for="inputSuccess1">Input with success</label>
+    <input type="text" class="form-control" id="inputSuccess1">
+</div>
+<div class="form-group has-warning">
+    <label class="control-label" for="inputWarning1">Input with warning</label>
+    <input type="text" class="form-control" id="inputWarning1">
+</div>
+<div class="form-group has-error">
+    <label class="control-label" for="inputError1">Input with error</label>
+    <input type="text" class="form-control" id="inputError1">
+</div>
+<div class="has-success">
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="checkboxSuccess" value="option1">
+            Checkbox with success
+        </label>
+    </div>
+</div>
+<div class="has-warning">
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="checkboxWarning" value="option1">
+            Checkbox with warning
+        </label>
+    </div>
+</div>
+<div class="has-error">
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="checkboxError" value="option1">
+            Checkbox with error
+        </label>
+    </div>
+</div>
+<!--按钮样式-->
+<a class="btn btn-success" href="#" role="button">Link</a>
+<button class="btn btn-info" type="submit">Button</button>
+<input class="btn btn-warning" type="button" value="Input">
+<input class="btn btn-danger" type="submit" value="Submit">
+<hr/>
+<!-- Standard button -->
+<button type="button" class="btn btn-default">（默认样式）Default</button>
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">（首选项）Primary</button>
+
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">（成功）Success</button>
+
+<!-- Contextual button for informational alert messages -->
+<button type="button" class="btn btn-info">（一般信息）Info</button>
+
+<!-- Indicates caution should be taken with this action -->
+<button type="button" class="btn btn-warning">（警告）Warning</button>
+
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger">（危险）Danger</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn btn-link">（链接）Link</button>
+<hr/>
+<!--按钮大小-->
+<p>
+    <button type="button" class="btn btn-primary btn-lg">（大按钮）Large button</button>
+    <button type="button" class="btn btn-default btn-lg">（大按钮）Large button</button>
+</p>
+<p>
+    <button type="button" class="btn btn-primary">（默认尺寸）Default button</button>
+    <button type="button" class="btn btn-default">（默认尺寸）Default button</button>
+</p>
+<p>
+    <button type="button" class="btn btn-primary btn-sm">（小按钮）Small button</button>
+    <button type="button" class="btn btn-default btn-sm">（小按钮）Small button</button>
+</p>
+<p>
+    <button type="button" class="btn btn-primary btn-xs">（超小尺寸）Extra small button</button>
+    <button type="button" class="btn btn-default btn-xs">（超小尺寸）Extra small button</button>
+</p>
+<!--块级元素-->
+<button type="button" class="btn btn-primary btn-lg btn-block">（块级元素）Block level button</button>
+<button type="button" class="btn btn-default btn-lg btn-block">（块级元素）Block level button</button>
+<hr/>
+<button type="button" class="btn btn-primary btn-lg " disabled="disabled">Primary button</button>
+<button type="button" class="btn btn-default btn-lg ">Button</button>
+<hr/>
+<img src="img/春.jpg" class="img-responsive img-rounded" alt="Responsive image">
+<img src="img/夏.jpg" class="img-responsive img-circle" alt="Responsive image">
+<img src="img/秋.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+<!--进度条-->
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 32%;">
+        <span class="sr-only">60% Complete</span>
+    </div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        60%
+    </div>
+</div>
+<!--徽章-->
+<ul class="list-group">
+    <li class="list-group-item">
+        <span class="badge">3</span>
+        Cras justo odio
+    </li>
+</ul>
+
+<button type="button" class="btn btn-primary" onclick="showM()" >显示窗口</button>
+<!--	模态窗口-->
+<div class="modal fade" id="userUpdatePopup" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">User Update</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="id">ID</label>
+                        <input class="form-control" id="id" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">性别</label>
+                        <input class="form-control" id="gender">
+                    </div>
+                    <div class="form-group">
+                        <label for="birthday">生日</label>
+                        <input type="text" class="form-control" id="birthday">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" onclick="updateStu()" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/bootstrap.js"></script>
+<script >
+
+    function showM() {
+        //显示模态窗
+        $("#userUpdatePopup").modal();
+    }
+    function updateStu() {
+
+    }
+</script>
+</html>

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSMDemo:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/SSMDemo_war</output-path>
+    <root id="archive" name="SSMDemo_war.war">
+      <element id="artifact" artifact-name="SSMDemo:war exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/web/WEB-INF/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
